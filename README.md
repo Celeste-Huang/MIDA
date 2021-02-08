@@ -1,8 +1,10 @@
 ## README before download
 If you use 'Download ZIP' to download the repository, you may not get Git LFS files (i.e., Exe/main.exe, Example/*.exe, Videos/*.mp4). There are three ways to solve this problem.
 
-Solution 1. Use 'git clone' command rather than 'Download ZIP'
+Solution 1. Use 'git clone' command rather than 'Download ZIP'.
+
 Solution 2. Navigate with web browser to any Git LFS file and click 'Download' button on top right, then you got the real file not the pointer.
+
 For example, navigate to Videos/, click 1. How to .. mp4 file, click 'Download' button, then you will get 50.2MB mp4 file rather than 1KB pointer file. You may need to repeat this action for all mp4 files in Videos/ folder, .exe file in Exe/ folder and all .exe file in Example/ folder.  
 Solution 3. Download ZIP archiver from Google Driver https://drive.google.com/drive/folders/1S8vbJ62XTm0TRb4gPbHlzZBxn8in28hX?usp=sharing
 
