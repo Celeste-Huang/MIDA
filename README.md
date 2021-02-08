@@ -1,5 +1,5 @@
 ## README before download
-If you use 'Download ZIP' to download the repository, you may not get Git LFS files (i.e., Exe/main.exe, Example/*.exe, Videos/*.mp4). There are three ways to solve this problem.
+If you use 'Download ZIP' to download the repository, you may not get Git LFS files (i.e., Exe/main.exe, Example/xxxxx.exe, Videos/xxxxx.mp4). There are three ways to solve this problem.
 
 Solution 1. Use 'git clone' command rather than 'Download ZIP'.
 
