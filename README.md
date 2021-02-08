@@ -8,7 +8,7 @@ For example, navigate to Videos/, click 1. How to .. mp4 file, click 'Download' 
 
 Solution 3. Download ZIP archiver from Google Driver https://drive.google.com/drive/folders/1S8vbJ62XTm0TRb4gPbHlzZBxn8in28hX?usp=sharing
 
-## Brief instructions for using Model Independent Data Assimilation (MIDA) module
+## Brief instructions for using MIDA module
 
 1. Prepare all necessary data, such as observation files, output configuration files, model executable, parameter range, etc. 
 2. Enter into exe/ folder, copy the main.exe file to your preferred working path (e.g., F:\Lab\Work\MIDA\Code\MIDA) 
