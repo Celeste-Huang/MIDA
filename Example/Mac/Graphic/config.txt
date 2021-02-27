@@ -1,0 +1,2 @@
+#/Users/xinhuang/Documents/Work/MIDA_workgroup/GUI_mac/Release/obsNEE.txt##/Users/xinhuang/Documents/Work/MIDA_workgroup/GUI_mac/Release/simuNEE.txt
+simu_map[0:5844]=simuList[0][0:5844]

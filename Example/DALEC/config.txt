@@ -1,2 +1,0 @@
-#F:\Lab\Work\MIDA\Code\test\obsNEE.txt##F:\Lab\Work\MIDA\Code\testGUI\simuNEE.txt,F:\Lab\Work\MIDA\Code\testGUI\simuNEE.txt
-simu_map[0:5844]=(simuList[0][0:5844]+simuList[1][0:5844])/2

@@ -1,0 +1,6 @@
+Info about DA,print or not (0: not print; 1: print; at least select one)
+sum_mismatchs,1
+accepted rate,1
+delta_mismatch,0
+mismatch for each data set,0
+observation variance,0
