@@ -1,4 +1,5 @@
-Download
+
+## Download
 
 If you cannot find .mp4 in Videos/ folder or executables in Examples/ or Exe/ folders, please download them from another link https://drive.google.com/drive/folders/1S8vbJ62XTm0TRb4gPbHlzZBxn8in28hX?usp=sharing
 
@@ -21,28 +22,32 @@ MIDA is a module that allows for automatic implementation of data assimilation w
 
     Taken R as an example, make sure R is installed and the System PATH Variable includes the path of Rscript.exe. Open a termianl, type 'Rscript.exe', the output is like the figure below. Otherwise, R is not installed or PATH variable is not modified correctly.
 
-    ![R-model](/Users/xinhuang/Documents/Projects/R-model.PNG)
+    ![R-model](/Users/xinhuang/Documents/Projects/MIDA/pics/R-model.PNG)
 
     Prepare a filename.bat file (You may choose the filename as you wish). The content of this .bat file is 'Rscript.exe model_file_name.R' (model_file_name is the filename of the R script). Place this .bat file in the same folder of R script. When MIDA is running, load this .bat file as the model executable. It works the same for models written in Python or MATLAB. 
 
     Open a terminal, locate to the directory of .bat file, type 'filename.bat' to check the model executable is working correctly. Specially, check whether there are no errors and simulation outputs are newly generated. 
 
-    ![R-model1](/Users/xinhuang/Documents/Projects/R-model1.PNG)
+    ![R-model1](/Users/xinhuang/Documents/Projects/MIDA/pics/R-model1.PNG)
 
   * Mac and Linux
 
-    Taken R as an example, make sure R is installed. Open a terminal and type 'Rscript'. The output is like the figure below. Otherwise, please reinstall R. ![image-20210226192509787](/Users/xinhuang/Library/Application Support/typora-user-images/image-20210226192509787.png)Modify the R script to add  '\#!/usr/bin/env Rscript' as the first line. 
+    Taken R as an example, make sure R is installed. Open a terminal and type 'Rscript'. The output is like the figure below. Otherwise, please reinstall R. 
 
-    ![image-20210226194053960](/Users/xinhuang/Library/Application Support/typora-user-images/image-20210226194053960.png)
+    ![Rscript-mac](/Users/xinhuang/Documents/Projects/MIDA/pics/Rscript-mac.png)
+
+    Modify the R script to add  '\#!/usr/bin/env Rscript' as the first line. 
+
+    ![R-model_mac](/Users/xinhuang/Documents/Projects/MIDA/pics/R-model_mac.png)
 
     Open a terminal, locate to the directory of R script, assign executable priority to this file by this command 'chmod 755 model_file_name.R'
 
-    ![R-mac2](/Users/xinhuang/Documents/Projects/R-mac2.png)
+    ![R-model_mac1](/Users/xinhuang/Documents/Projects/MIDA/pics/R-model_mac1.png)
 
     Type './Fe_Wells_MIDA.R' to make sure there is no error occurred and the output.txt is newly generated.
-
-    ![R-mac1](/Users/xinhuang/Documents/Projects/R-mac1.png)
-
+    
+    ![R-model_mac2](/Users/xinhuang/Documents/Projects/MIDA/pics/R-model_mac2.png)
+    
     It works the same for models written in Python or MATLAB. 
 
 3. Prepare data files
@@ -66,19 +71,23 @@ MIDA is a module that allows for automatic implementation of data assimilation w
 
     In the main window, first users need to input all necessary information (most are to indicate the directory of data files users prepared) in the upper panel. It is to generate a namelist.txt file in the work path. Users can also prepare the namelist.txt by themselves without MIDA. Second, users need to load the namelist.txt generated and click 'Run Data Assimilation' button in the below panel.
 
-    ![image-20210226201407112](/Users/xinhuang/Library/Application Support/typora-user-images/image-20210226201407112.png)
+    ![MIDA-GUI](/Users/xinhuang/Documents/Projects/MIDA/pics/MIDA-GUI.png)
 
     Once users encounter an error, the detailed information will be printed in the other window (a black terminal) to help users to debug.
 
-    ![image-20210226201821616](/Users/xinhuang/Library/Application Support/typora-user-images/image-20210226201821616.png)
+    ![MIDA-GUI1](/Users/xinhuang/Documents/Projects/MIDA/pics/MIDA-GUI1.png)
 
     After DA successfully finished, click 'Generate plots' to visualize parameter posterior distributions and mismatches in the sampling.
 
   * Command-line: Open a Windows terminal, locate to the work path, type 'MIDA.exe' to trigger the automatic workflow (Data assimilation + Visualization). If any error occurs, there will be information listed in the terminal.
 
+    ![MIDA-windows-nonGUI](/Users/xinhuang/Documents/Projects/MIDA/pics/MIDA-windows-nonGUI.png)
+  
 * Mac
 
   No matter GUI or Command-Line version, users need to open a terminal, locate to the work path, type './MIDA' to start the windows for GUI or automatically execute the whole workflow of MIDA.
+
+  ![MIDA-mac](/Users/xinhuang/Documents/Projects/MIDA/pics/MIDA-mac.png)
 
 * Linux
 
@@ -96,11 +105,11 @@ MIDA is a module that allows for automatic implementation of data assimilation w
 
   * Make sure the model executable. Open a terminal, type 'chmod 766 dalecModel' to assign executable priority to the model executable (dalecMode for Mac). Then, check the applicability of model executable.
 
-    ![image-20210226204611042](/Users/xinhuang/Library/Application Support/typora-user-images/image-20210226204611042.png)
+    ![Example-mac-model1](/Users/xinhuang/Documents/Projects/MIDA/pics/Example-mac-model1.png)
 
   * Make sure the model executable and MIDA is executable. Users may directly type the commands below in Mac terminal to make model and MIDA are executable
 
-  ![image-20210226203941777](/Users/xinhuang/Library/Application Support/typora-user-images/image-20210226203941777.png)
+    ![Example-mac-model](/Users/xinhuang/Documents/Projects/MIDA/pics/Example-mac-model.png)
 
   * Prepare data and start MIDA as depicted in section 3-5. Notice, different from Windows, users with Mac have to type ‘./MIDA’ to start MIDA in the terminal no matter GUI or non-GUI. 
 
