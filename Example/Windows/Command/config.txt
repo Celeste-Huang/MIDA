@@ -1,2 +1,0 @@
-#F:\Lab\Work\MIDA\Code\MIDAGUI\obsNEE.txt##F:\Lab\Work\MIDA\Code\MIDAGUI\simuNEE.txt
-simu_map[0:5844]=simuList[0][0:5844]

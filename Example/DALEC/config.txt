@@ -1,0 +1,2 @@
+#F:\Lab\Work\MIDA\Code\test\obs.txt##F:\Lab\Work\MIDA\Code\testGUI\output.txt
+simu_map[0:3]=simuList[0][0:3]
