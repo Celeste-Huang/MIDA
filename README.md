@@ -22,7 +22,7 @@ MIDA is a module that allows for automatic implementation of data assimilation w
 
     Taken R as an example, make sure R is installed and the System PATH Variable includes the path of Rscript.exe. Open a termianl, type 'Rscript.exe', the output is like the figure below. Otherwise, R is not installed or PATH variable is not modified correctly.
 
-    ![R-model](/Users/xinhuang/Documents/Projects/MIDA/pics/R-model.PNG)
+    ![R-model](./pics/R-model.PNG)
 
     Prepare a filename.bat file (You may choose the filename as you wish). The content of this .bat file is 'Rscript.exe model_file_name.R' (model_file_name is the filename of the R script). Place this .bat file in the same folder of R script. When MIDA is running, load this .bat file as the model executable. It works the same for models written in Python or MATLAB. 
 
