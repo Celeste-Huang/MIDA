@@ -1,6 +1,6 @@
 ﻿No.,*Name,*DA or not(1:DA; 0:not DA),*Default,*Min,*Max,Full Name,Unit,Reference
-1,c1,0,1.00E+02,1.00E+01,2.50E+02,Growing degree day threshold for leaf out,,
-2,c2,1,2.00E+02,5.00E+01,5.00E+02,Growing degree day threshold for maximum LAI,,
+1,c1,1,1.00E+02,1.00E+01,2.50E+02,Growing degree day threshold for leaf out,,
+2,c2,1,2.00E+02,1.00E+02,5.00E+02,Growing degree day threshold for maximum LAI,,
 3,c3,1,4.00E+00,2.00E+00,7.00E+00,Seasonal maximum leaf area index,-,
 4,c4,1,5.00E+00,0.00E+00,1.00E+01,Temperature for leaf fall,,
 5,c5,1,1.00E-01,3.00E-02,9.50E-01,Rate of leaf fall,,
